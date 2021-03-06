@@ -1,0 +1,56 @@
+<html>
+
+<head>
+   <title>Test</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="main.js"></script>
+
+</head>
+
+<body onload="getData()">
+   <div class="circles">
+      
+      <div id="date_circle" class="blurred" onclick="openApp('com.apple.mobilecal')">
+         <p id="date">
+            <span id="day"></span>
+            <span id="day_number"></span>
+         </p>
+      </div>
+
+      <div class="blurred temp_circle" onclick="openApp('com.apple.weather')">
+         <p id="weather_icon">
+            <img id="weather_icon_img" src="xui://resource/default/weather/unknown.svg">
+         </p>
+      </div>
+
+      <div class="blurred temp_circle" onclick="openApp('com.apple.weather')">
+         <p id="temperature">
+         </p>
+      </div>
+
+      <div class="blurred" id="battery_circle">
+         <p id="battery">
+            
+         </p>
+      </div>
+
+      <!-- <div class="blurred" onclick="toggleMusic()">
+         <div id="progress">
+            <p id="music_icon">
+               <img id="music_icon_img">
+            </p>
+         </div>
+      </div>
+
+      <div class="blurred" id="things_circle" onclick="openApp('com.culturedcode.ThingsiPhone')">
+         <p id="things">
+            
+         </p>
+      </div> -->
+
+      </div>
+   </div>
+</body>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</html>

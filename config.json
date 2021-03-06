@@ -1,0 +1,9 @@
+{
+    "name": "Nyx",
+    "author": "alombi",
+    "size": {
+        "max-width": "500px",
+        "width": "70%",
+        "height": "65px"
+      }
+}

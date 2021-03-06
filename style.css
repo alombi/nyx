@@ -1,0 +1,94 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+.circles{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+.circles > div{
+  width:45px;
+  height: 45px;
+}
+.circles > div > p{
+  text-align: center;
+}
+
+
+/* Items categories */
+.blurred{
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.65);
+  margin:0px;
+  padding: 0px;
+}
+@media(prefers-color-scheme:dark){
+  .blurred{
+    background-color:rgba(0, 0, 0, 0.55);
+  }
+}
+
+/* Date */
+#day{
+  font-size: 10px;
+  margin:0px;
+  margin-top:-11px;
+  font-weight: 600;
+  color: rgb(255, 69, 58);
+}
+#date{
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+#day_number{
+  font-size:18px;
+  margin-top: -3px;
+}
+#date_circle{
+  background-color: rgba(255, 69, 58, 0.20);
+}
+/* Weather icon */
+#weather_icon{
+  margin-top:12px;
+}
+#weather_icon_img{
+  height:21px;
+}
+
+#temperature{
+  font-size: 17px;
+  margin-top:11.5px;
+  padding-left: 4px;
+  font-weight: 600;
+  color:rgb(100, 200, 250)
+}
+.temp_circle{
+  background-color:rgba(100, 200, 250, 0.30) ;
+}
+
+/* Battery */
+#battery{
+  font-size: 17px;
+  margin-top:11.5px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Music
+#music_icon_img{
+  height:16px;
+}
+ #things_circle{
+	border: 3px solid #277BEF;
+  width:40px;
+  height: 40px;
+}
+#things{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0px;
+  margin:0px;
+  margin-top: 10px;
+} */
