@@ -21,7 +21,7 @@ function today() {
    var now = new Date();
    var days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
    let day = days[now.getDay()];
-   let today = now.getDay();
+   let today = now.getDate()
    document.getElementById('day').innerHTML = day;
    document.getElementById('day_number').innerHTML = today;
 }
