@@ -10,3 +10,6 @@ You also may want to lower your notifications and media player: use [Lower](http
 ### Requirements
 Requires XenHTML (2.0~beta7.1 or more recent from the [official repo](https://xenpublic.incendo.ws/))
 
+## Installation
+Add my [repo](https://alombi.xyz/repo) to your package manager and install Nyx.
+Repo: `https://alombi.xyz/repo`
