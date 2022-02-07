@@ -12,4 +12,4 @@ Requires XenHTML (2.0~beta7.1 or more recent from the [official repo](https://xe
 
 ## Installation
 Add my [repo](https://alombi.github.io/repo) to your package manager and install Nyx.
-Repo: `https://alombi.xyz/repo`
+Repo: `https://alombi.github.io/repo`
